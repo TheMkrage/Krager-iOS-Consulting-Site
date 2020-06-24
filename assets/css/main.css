@@ -1687,6 +1687,16 @@ input, select, textarea {
 			padding: 0.75em 1.5em 0.75em 1.5em;
 		}
 
+		input[type="button"].small,
+		input[type="submit"].small,
+		input[type="reset"].small,
+		button.small,
+		.button.small {
+			font-size: 0.8em;
+			font-weight: normal;
+			padding: 0.75em 1.5em 0.75em 1.5em;
+		}
+
 /* Image */
 
 	.image {
@@ -2704,6 +2714,10 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+	}
+
+	h3 a:hover {
+		color: blue;
 	}
 
 /* Small */
