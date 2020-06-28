@@ -49,16 +49,27 @@
 									  action="https://formspree.io/maypddwk"
 									  method="POST"
 									>
+									<label>
+										Type:
+										<select id="cars" name="cars">
+										  <option value="volvo">Volvo</option>
+										  <option value="saab">Saab</option>
+										  <option value="fiat">Fiat</option>
+										  <option value="audi">Audi</option>
+										</select>
+									</label>
+
+
 									  <label>
-									    Your email:
+									    Email:
 									    <input type="text" name="_replyto">
 									  </label>
 										<label>
-									    Your phone:
-									    <input name="phone"></input>
+									    Phone:
+									    <input type="text" name="phone"></input>
 									  </label>
 									  <label>
-									    Your message:
+									    Tell me about your situation:
 									    <textarea name="message"></textarea>
 									  </label>
 									  <button type="submit">Send</button>
